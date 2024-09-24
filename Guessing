@@ -1,0 +1,7 @@
+```mermaid 
+flowchart TD 
+Start([Start]) --> End([End])
+A([Start]) --> B{Generate Random Number}
+C[/User enters guess/] --> D{Guess is low}
+D{Guess is low}
+``` 
