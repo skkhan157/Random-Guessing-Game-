@@ -1,7 +1,20 @@
 ```mermaid 
-flowchart TD 
-Start([Start]) --> End([End])
-A([Start]) --> B{Generate Random Number}
-C[/User enters guess/] --> D{Guess is low}
-D{Guess is low}
+flowchart TD
+    A([Start]) --> B(Generate Random Number)
+    B --> C[/User Enters Guess/]
+    C -->D{Guess is Low}
+    E[/Display Error/]
+    D---|Yes|E
+    F{Guess is High}
+    D---|No|F
+    G[/Display Error/]
+    F---|Yes|G
+    F---|No|H
+    H{Guess is Correct}
+    I[/Display Congratulatory Message/]
+    H---|Yes|I 
+    E---|Try Again|A 
+    G---|Try Again|A 
+    J([End])
+    I---J
 ``` 
