@@ -18,4 +18,4 @@ flowchart TD
     End([End]) 
     I---End
 ```
-    I started my flowchart with starting block and connecting it to the "Generate Random Number" block, which I assigned to letter B. I connected the B block to the C block which is "User Enters Guess." 
+I started my flowchart with starting block and connecting it to the "Generate Random Number" block, which I assigned to letter B. I connected the B block to the C block which is "User Enters Guess." Next, I connected the C block to the D block which is "Guess is Low" which I linked to a new variable E "Display Error" 
