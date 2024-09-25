@@ -17,4 +17,5 @@ flowchart TD
     G---|Try Again|Start
     End([End]) 
     I---End
-``` 
+```
+I started my flowchart with starting block and connecting it to the "Generate Random Number" block, which I assigned to letter B. I connected the B block to the C block which is "User Enters Guess." 
