@@ -1,6 +1,5 @@
 ```mermaid 
-flowchart TD
-    Start([Start]) --> End([End]) 
+flowchart TD 
     Start([Start]) --> B(Generate Random Number)
     B --> C[/User Enters Guess/]
     C -->D{Guess is Low}
@@ -15,6 +14,7 @@ flowchart TD
     I[/Display Congratulatory Message/]
     H---|Yes|I 
     E---|Try Again|Start 
-    G---|Try Again|Start 
+    G---|Try Again|Start
+    End([End]) 
     I---End
 ``` 
