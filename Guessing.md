@@ -14,7 +14,7 @@ flowchart TD
     H{Guess is Correct}
     I[/Display Congratulatory Message/]
     H---|Yes|I 
-    E---|Try Again|A 
-    G---|Try Again|A 
+    E---|Try Again|Start 
+    G---|Try Again|Start 
     I---End
 ``` 
